@@ -1,0 +1,358 @@
+
+@media (max-width: 600px) {
+*{
+    box-sizing: border-box;
+   
+}}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+
+}
+.menu{
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    position: fixed;
+    z-index: 100;
+    background-color: #26a0da;
+    
+}
+
+.menu li{
+    list-style: none;
+    font-size: 1.6em;
+}
+
+.menu a{ 
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.menu li:hover a{ 
+    cursor: pointer;
+    text-shadow: 0px 0px 10px #5cfaff,
+    0px 0px 20px #5cfaff,
+    0px 0px 40px #5cfaff,
+    0px 0px 80px #5cfaff;
+
+}
+
+.contenedor{
+   padding-top: 50px; 
+   width: 100%;
+   margin: auto;
+   overflow: hidden;
+   text-align: center;
+}
+
+.centro h1{
+    color: black;
+    text-shadow: 0px 0px 10px #5cfaff,
+    0px 0px 20px #5cfaff,
+    0px 0px 40px #5cfaff,
+    0px 0px 80px #5cfaff;
+    padding-top: 1em;
+}
+
+.centro{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    max-width: 100em;
+    min-height: 10vh;
+}
+
+.texto{
+    width: 50%;
+    overflow: auto;
+    max-height: 100vh;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.centro p{
+   padding: .5em 2em;
+   font-size: 1.4em;
+   text-align: justify  ;
+}
+
+.Download-CV{
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #26a0da;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.Download-CV:hover{
+    background-color: #2C5364;
+    box-shadow: none;
+    color: azure;
+}
+
+.centro img{
+    width: 50%;
+    max-height: 75vh;
+} 
+
+.about{
+    display: flex;
+    align-items: center;
+    background: #0F2027; 
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    padding: 1em 1em;
+    width: 100%;
+
+}
+
+.about-info h2{
+    color: white;
+    font-size: 200%;
+    text-shadow: 0px 0px 10px #5cfaff,
+    0px 0px 20px #5cfaff,
+    0px 0px 40px #5cfaff,
+    0px 0px 80px #5cfaff;
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.about-info{
+    height: 100vh;
+    width: 50%;
+    padding: 1em 1em;
+    overflow: auto;
+    font-size: 1.6em;
+    text-align: center;
+    align-items: center;
+}
+
+.about-info p{
+    font-size: 1em;
+    color: white;
+    text-align: justify;
+}
+
+.about img{
+    width: 50%;
+    padding: 0 1em;
+    max-height: 100vh;
+}
+
+.portafolio{
+ flex-wrap: wrap;
+ align-items: center;
+ width:100%;
+}
+
+.portfolio-heading{
+   text-align: center;
+   align-items: center;
+}
+
+.portfolio-heading h1{
+    padding: 1em;
+    text-shadow: 0px 0px 10px #5cfaff,
+                0px 0px 10px #5cfaff,
+                0px 0px 40px #5cfaff,
+                0px 0px 20px #5cfaff;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+.card{
+    border: 10px solid #203A43;
+    align-items: center;
+    flex-wrap: nowrap;
+    grid-template-columns: repeat((3, 1fr));
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-template-areas: "header header header"
+     "sidebar main main"
+     "sidebar section content"
+     "footer footer footer";
+     margin: 1em  1em;
+     padding: 1em 1em;
+}
+
+.card__img img{
+    width: 1750px;
+    height: 80vh;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+.card__title{
+    align-items: center;
+    text-align: center;
+}
+
+.card__title p{
+    font-size: 1.5em;
+   text-align: justify;
+}
+
+.card h2{
+    color: black;
+    padding: .2em .2em;
+    text-align: center;
+}
+
+
+.card__proyect-links{
+    align-items: center;
+    text-align: center;
+    padding: .3em .3em;
+}
+
+.card__proyect-links a {
+    color: black;
+    text-decoration: none;
+    max-width: 100%;
+    font-size: 2em;
+  }
+
+.button-content{
+    text-align: center;
+    padding: .3em .3em;
+   
+}
+
+.project-details-button a {
+    text-decoration: none;
+    max-width: 100%;
+    font-size: 2em;
+    color: white;
+  }
+
+.button-content button{
+    border-radius: 20%;
+    background-color: #26a0da;
+   
+}
+
+.contact-section{
+    text-align: center;
+    padding: 2em;
+    background: #314755;  
+    width: 100%;
+}
+
+.contact-heading h4,h2{
+    font-size: 2em;
+    text-shadow: 0px 0px 10px #5cfaff,
+    0px 0px 20px #5cfaff,
+    0px 0px 40px #5cfaff,
+    0px 0px 80px #5cfaff;
+    color: white;
+    
+}
+ 
+.container-contact {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+  
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-top: 2em;
+    align-items: center;
+    padding: 0 1em;
+   
+}
+
+.form-group textarea {
+    padding: 1.5em;
+    max-width: 100%;
+    width: 50em;
+    height: 30vh;
+    text-align: center;
+    background-color: white;
+    
+}
+  
+.form-group .input {
+    margin-bottom: 1em;
+    max-width: 100%;
+    width: 50em;
+    height: 7vh;
+    text-align: center;
+    padding: 1em 1em;
+   
+}
+  
+.btn-submit {
+    padding: 1em 1em;
+    margin: 1em;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.btn-submit:hover{
+    background-color: #26a0da;
+    box-shadow: none;
+    color: azure;
+}
+.footer-content {
+    width: 100%;
+    margin: 0 auto; 
+    padding: 1em; 
+    text-align: center; 
+  }
+  
+  .footer-content h2 {
+    color: black;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px #5cfaff,
+                0px 0px 10px #5cfaff,
+                0px 0px 40px #5cfaff,
+                0px 0px 20px #5cfaff;
+    margin: 0em 0; 
+    
+  }
+  
+  .footer-content h5 {
+    font-size: 2em;
+    margin: 0.5em 0;
+  }
+  
+  .red-social {
+    display: inline-flex; 
+    justify-content: center; 
+    gap: 1em; 
+  }
+  
+  .red-social a {
+    color: black;
+    cursor: pointer;
+    font-size: 2em;
+    text-decoration: none; 
+  }
+  
+  .fab fa-linkedin {
+    font-size: 2em; 
+}
+  
