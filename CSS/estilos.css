@@ -1,5 +1,5 @@
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 *{
     box-sizing: border-box;
    
@@ -7,16 +7,18 @@
 
 body{
     font-family:'Times New Roman', Times, serif;
-
+    margin: 0;
+    
 }
 .menu{
     display:flex;
-    width: 100%;
+    width: 98%;
     justify-content: space-evenly;
     flex-wrap: nowrap;
     position: fixed;
     z-index: 100;
-    background-color: #26a0da;
+    background-color: #125471
+    
     
 }
 
@@ -42,75 +44,76 @@ body{
 
 }
 
-.contenedor{
-   padding-top: 50px; 
-   width: 100%;
-   margin: auto;
-   overflow: hidden;
-   text-align: center;
-  
-}
-
-.centro h1{
-    color: black;
-    text-shadow: 0px 0px 10px #5cfaff,
-    0px 0px 20px #5cfaff,
-    0px 0px 40px #5cfaff,
-    0px 0px 80px #5cfaff;
-    padding-top: 1em;
-}
-
-.centro{
+.contenedor {
+    padding-top: 50px;
     width: 100%;
-    height: 100%;
-    display:flex;
-   
-}
-
-.texto{
-    width: 50%;
+  }
+  
+  .centro h1 {
+    color: black;
+    text-shadow: 0px 0px 10px #5cfaff, 0px 0px 20px #5cfaff, 0px 0px 40px #5cfaff, 0px 0px 80px #5cfaff;
+    padding-top: 1em;
+  }
+  
+  .centro {
+    padding-top: 60px;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+  }
+  
+  .texto {
+    width: 58%; /* Ajustar el ancho del div de texto */
     overflow: auto;
     max-height: 100vh;
     text-align: center;
     align-items: center;
     font-size: 1.2em;
-}
-
-.centro p{
-   padding: .5em 2em;
-   font-size: 1.4em;
-   text-align: justify  ;
-}
-
-.Download-CV{
+  }
+  
+  .imgf {
+    width: 50%; /* Ajustar el ancho del div de imagen */
+    max-width: 100%;
+    max-height: 100vh;
+  }
+  
+  .centro p {
+    padding: 0.5em 2em;
+    font-size: 1.4em;
+    text-align: justify;
+  }
+  
+  .Download-CV {
     padding: 10px 10px;
     border-radius: 20px;
-    background-color: #26a0da;
     border: none;
     cursor: pointer;
     font-size: 1em;
-}
-
-.Download-CV:hover{
+  }
+  
+  .Download-CV:hover {
     background-color: #2C5364;
     box-shadow: none;
     color: azure;
-}
-
-.centro img{
-    width: 50%;
-    max-height: 75vh;
-} 
+  }
+  
+  .imgf img {
+    height: 50vh;
+    width: 80%; /* Ajustar el ancho de la imagen al 100% del contenedor */
+    max-width: 100%;
+    max-height: 100vh;
+    border-radius: 50%;
+    min-width: 80%
+  }
 
 .about{
     display: flex;
     align-items: center;
-    background: #0F2027; 
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
     padding: 1em 1em;
-    width: 100%;
-
+    width: 98.4%;
+  
 }
 
 .about-info h2{
@@ -122,7 +125,7 @@ body{
     0px 0px 80px #5cfaff;
     max-width: 100%;
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: .1em;
 }
 
 .about-info{
@@ -136,21 +139,43 @@ body{
 }
 
 .about-info p{
-    font-size: 1em;
+    font-size: 1.1em;
     color: white;
     text-align: justify;
+    line-height: 1.3;
 }
 
 .about img{
-    width: 50%;
-    padding: 0 1em;
-    max-height: 100vh;
+    height: 70vh;
+    width: 40%; 
+    border-radius: 50%;
+    padding: 2em;
+}
+
+.txt{
+  text-align: center;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+  border: solid 1px #2C5364;
+  color: white;
+  font-size: 2em;
+  
+
+}
+.cont{
+  display: flex;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+  color: white;
+  justify-content: space-around;
+  text-align: center;
+  
 }
 
 .portafolio{
  flex-wrap: wrap;
  align-items: center;
- width:100%;
+ width:99%;
 }
 
 .portfolio-heading{
@@ -172,7 +197,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content:space-around;
-    
+
 }
 
 .card{
@@ -185,12 +210,12 @@ body{
      "sidebar main main"
      "sidebar section content"
      "footer footer footer";
-     margin: 1em  1em;
+     margin: 1em  3em;
      padding: 1em 1em;
 }
 
 .card__img img{
-    width: 1750px;
+    width: 1780px;
     height: 80vh;
     align-items: center;
     max-width: 100%;
@@ -250,7 +275,7 @@ body{
     text-align: center;
     padding: 2em;
     background: #314755;  
-    width: 100%;
+    width: 96.7%;
 }
 
 .contact-heading h4,h2{
@@ -317,10 +342,11 @@ body{
     color: azure;
 }
 .footer-content {
-    width: 100%;
+    width: 98.3%;
     margin: 0 auto; 
     padding: 1em; 
     text-align: center; 
+    
   }
   
   .footer-content h2 {
