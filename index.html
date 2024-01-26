@@ -2,63 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portafolio</title>
     <link rel="stylesheet" href="CSS/estilos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   </head>
   <body>
-  <section> 
-    <div class="wrapper" id="Inicio">
-     <header class="cabecero">
-        <nav class="navbar">
-            <ul class="menu">
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#Quien soy">Quien soy</a></li>
-                <li><a href="#Portafolio">Portafolio</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
-            </ul>
-       </nav>
-     </header>
-     
-    </div></br>
+
+    <div class="header" id="header">
+      <button>Portafolio</button>
+      <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+      <label for="openSidebarMenu" class="sidebarIconToggle">
+          <div class="spinner diagonal part-1"></div>
+          <div class="spinner horizontal"></div>
+          <div class="spinner diagonal part-2"></div>
+      </label>
+      <div id="sidebarMenu">
+          <ul class="sidebarMenuInner">
+              <li><a href="#Inicio">Inicio</a></li>
+              <li><a href="#Quien">Quien soy</a></li>
+              <li><a href="#Portafolio">Portafolio</a></li>
+              <li><a href="#Contacto">Contacto</a></li>
+          </ul>
+      </div>
+    </div>
+
+  <h1 class="parr-title" id="Inicio">Sergio Dimas</h1>
+
+  <section class="init" id="init">
+    
+      <div class="parrafo">
+      <div class="parr">
+        <p class="small-desc">
+          Como desarrollador frontend, estoy inmerso en el emocionante mundo del desarrollo web y me comprometo a aprender las habilidades esenciales para crear sitios web y aplicaciones interactivas y efectivas. Mi enfoque principal se centra en el diseño y la implementación de interfaces de usuario atractivas y funcionales utilizando tecnologías clave como JavaScript, React JS, HTML y CSS.
+          Estoy emocionado por contribuir al crecimiento continuo del campo del desarrollo web y por crear experiencias digitales intuitivas y atractivas para los usuarios. Mi objetivo es desarrollar sitios web y aplicaciones frontend que no solo sean visualmente atractivos, sino también altamente funcionales y fáciles de usar, mejorando así la experiencia del usuario y satisfaciendo sus necesidades digitales de manera efectiva.            </p><a download href="HV/HDV-SERGIO-DIMAS.pdf"><button class="download-button">
+              <div class="docs"><svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="20" width="20" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line y2="13" x2="8" y1="13" x1="16"></line><line y2="17" x2="8" y1="17" x1="16"></line><polyline points="10 9 9 9 8 9"></polyline></svg> CV</div>
+              <div class="download">
+                <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="24" width="24" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line y2="3" x2="12" y1="15" x1="12"></line></svg>
+              </div>
+            </button></a>
+      </div>
+      </div>  
+      
+      <div class="gal">
+        <div class="present">
+          <div class="present-photo"> 
+          <img src="CSS/IMG/img1.png" alt="e"></div>
+          <div class="present-title">SERGIO DIMAS <br>
+              <span>Desarrollador Frontend</span>
+          </div>
+          <div class="present-socials">
+            <button class="present-socials-btn github" >
+              <a href="https://github.com/SergioDimas17/Portfolio.github.io" target="_blank" id="github-icon">
+    
+                  <svg viewBox="0 0 24 24" height="33" width="33" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+              </button></a> 
+              <button class="present-socials-btn linkedin">
+                <a href="https://www.linkedin.com/in/sergio-dimas/" target="_blank" id="linkedin-icon">
+                  <svg height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m51.326 185.85h90.011v270.872h-90.011zm45.608-130.572c-30.807 0-50.934 20.225-50.934 46.771 0 26 19.538 46.813 49.756 46.813h.574c31.396 0 50.948-20.814 50.948-46.813-.589-26.546-19.551-46.771-50.344-46.771zm265.405 124.209c-47.779 0-69.184 26.28-81.125 44.71v-38.347h-90.038c1.192 25.411 0 270.872 0 270.872h90.038v-151.274c0-8.102.589-16.174 2.958-21.978 6.519-16.174 21.333-32.923 46.182-32.923 32.602 0 45.622 24.851 45.622 61.248v144.926h90.024v-155.323c0-83.199-44.402-121.911-103.661-121.911z"></path></svg>
+              </button></a>
+          </div>
+      </div>
+    </div>
   </section>
-    <main>
-       
-        <div class="contenedor">
-            <div class="centro" >
-            <div class="texto"> 
-                <h1> Sergio Dimas </h1>
-                <p>Como desarrollador web, estoy inmerso en el fascinante mundo del desarrollo web y estoy comprometido en aprender las habilidades esenciales para crear sitios web y aplicaciones interactivas y efectivas. 
-                  Mi formación abarca tanto el backend como el frontend, lo que me capacita para abordar todos los aspectos del desarrollo web con solidez y versatilidad.
-                   Estoy enfocado en adquirir experiencia en la creación de experiencias digitales intuitivas y atractivas para los usuarios, y estoy emocionado por contribuir al crecimiento continuo del campo del desarrollo web.</p>
-                <a download href="HV/HDV-SERGIO-DIMAS.pdf"><button class="Download-CV">Download CV</button></a>
-                </div>
 
-               <div class="imgf"> <img src="CSS/IMG/img1.jpeg" alt="fotopersonal"></div>
-            </div>
-                
-        </div>
-       
-    </main>
-   </br>
-    <section>
-    <div class="about" id="Quien soy">
+  
+    <section class="sobre" id="Quien">
+      <h2 class="parr-title">Sobre mi</h1>
+    <div class="about" >
+      
+      <div class="img2">
         <img src="CSS/IMG/img2.jpeg" alt="ent">
+   </div>
         <div class="about-info">
-            <h2>Sobre mi</h2>
-            <p>Soy un estudiante de 10 semestre de Ingeniería Electrónica con enfoque en el desarrollo web. Mi experiencia técnica abarca una variedad de lenguajes de programación tanto en el frontend como en el backend. En el frontend, domino tecnologías clave como JavaScript, React JS, HTML, y CSS, permitiéndome crear interfaces de usuario atractivas y funcionales. En el backend, cuento con habilidades en Java y Python, así como experiencia en el manejo de bases de datos SQL y en la implementación de tecnologías web, incluyendo Docker.
-
-              Además de mis habilidades técnicas, tengo experiencia en el uso de herramientas esenciales como Git y GitHub para el control de versiones, así como en la utilización de Postman para el testing de APIs. Mi conocimiento se extiende a metodologías ágiles, con un enfoque especial en Scrum, lo que me permite trabajar de manera eficiente en equipos colaborativos.</p>
-            <p>Destaco por mis habilidades blandas, incluyendo una comunicación efectiva, colaboración en equipo, resolución de problemas y una sólida capacidad de aprendizaje autónomo. Mi adaptabilidad a diferentes entornos y mi compromiso con el éxito del proyecto son aspectos que me distinguen.
-
-              Mi objetivo profesional es asegurar una posición como desarrollador web junior, donde pueda consolidar mi experiencia laboral en el desarrollo de software y contribuir al avance de productos innovadores. Como profesional cualificado y motivado, estoy comprometido con el aprendizaje continuo y el crecimiento profesional, aspirando a ser una contribución valiosa para el éxito de proyectos de desarrollo web.</p>
+          <div class="parr">
+           
+            <p class="small-desc">
+              Como estudiante de 10 semestre de Ingeniería Electrónica con una dedicación exclusiva al desarrollo frontend, poseo una sólida experiencia técnica que abarca una amplia gama de tecnologías y herramientas. Mi enfoque principal se centra en la creación de interfaces de usuario atractivas y funcionales, utilizando tecnologías clave como JavaScript, React JS, HTML y CSS.
+              En cuanto a mis habilidades técnicas, destacan mis conocimientos en Java y Python para el desarrollo backend, así como mi experiencia en el manejo de bases de datos SQL y la implementación de tecnologías web, incluyendo Docker. Además, estoy familiarizado con herramientas esenciales como Git y GitHub para el control de versiones, así como con Postman para el testing de APIs.
+              Mi conocimiento se extiende también a metodologías ágiles, con un enfoque especial en Scrum, lo que me permite colaborar eficientemente en equipos multidisciplinarios. Más allá de mis habilidades técnicas, soy reconocido por mi capacidad de comunicación efectiva, colaboración en equipo, resolución de problemas y mi sólida capacidad de aprendizaje autónomo.          
+              Mi objetivo profesional es asegurar una posición como desarrollador web junior, donde pueda aplicar y consolidar mi experiencia en el desarrollo de software y contribuir al avance de productos innovadores. Como profesional comprometido con el aprendizaje continuo y el crecimiento profesional, aspiro a ser una contribución valiosa para el éxito de proyectos de desarrollo web.          </div>
         </div>
     </div>
     
     <div  class="txt"><h1>Mis Habilidades</h1></div>      
-    <div class="txt"></div>
     <div class="cont">
+      <div class="habilidades">
       <div class="HTML">
         <h1>HTML</h1>
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
@@ -108,29 +137,102 @@
           </svg>
       </div>
     </div>
-  </section>
-    <div class="portafolio" id="Portafolio">
-        <div class="portfolio-heading">
-          <h1>Mi Portafolio</h1>
+    
+    
+
+    <div class="conta">
+      <div class="skill-box">
+          <span class="title">HTML</span>
+
+          <div class="skill-bar">
+              <span class="skill-per html">
+                  <span class="tooltip"></span>
+              </span>
+          </div>
+      </div>
+
+      <div class="skill-box">
+          <span class="title">CSS</span>
+
+          <div class="skill-bar">
+              <span class="skill-per css">
+                  <span class="tooltip"></span>
+              </span>
+          </div>
+      </div>
+      <div class="skill-box">
+          <span class="title">JAVASCRIPT</span>
+          <div class="skill-bar">
+            <span class="skill-per javascript">
+                <span class="tooltip"></span>
+            </span>
         </div>
-        <div class="container">
+    </div>
+    <div class="skill-box">
+        <span class="title">PYTHON</span>
+          
+
+          <div class="skill-bar">
+              <span class="skill-per python">
+                  <span class="tooltip"></span>
+              </span>
+          </div>
+      </div>
+      <div class="skill-box">
+          <span class="title">REACT.JS</span>
+
+          <div class="skill-bar">
+              <span class="skill-per reactjs">
+                  <span class="tooltip"></span>
+              </span>
+          </div>
+      </div>
+       <div class="skill-box">
+          <span class="title">VUE.JS</span>
+
+          <div class="skill-bar">
+              <span class="skill-per vuejs">
+                  <span class="tooltip"></span>
+              </span>
+          </div>
+      </div>
+          <div class="skill-box">
+          <span class="title">GITHUB.JS</span>
+
+          <div class="skill-bar">
+              <span class="skill-per github">
+                  <span class="tooltip"></span>
+              </span>
+          </div>
+      </div>
+         <div class="skill-box">
+          <span class="title">MYSQL.JS</span>
+
+          <div class="skill-bar">
+              <span class="skill-per mysql">
+                  <span class="tooltip"></span>
+              </span>
+          </div>
+      </div>
+      </div>
+  </div>
+  </section>
+  
 
 
-          <div class="card">
-            <h2>Proyecto Presupuestos</h2>
-            <div class="card__img">
-              <img src="CSS/IMG/img3.png" alt="ser">
-            </div>
-            <div class="card__title">
-              <p>Este proyecto es una aplicación web que te permite realizar un seguimiento de tus ingresos y gastos. 
-                La aplicación te permite agregar nuevos ingresos y gastos, editar los ingresos y gastos existentes, y eliminar los ingresos y gastos que ya no necesitas.
-                 Para agregar un nuevo ingreso, debes proporcionar una descripción del ingreso y el valor del ingreso. Para agregar un nuevo gasto,
-                  debes proporcionar una descripción del gasto y el valor del gasto. Puedes editar los ingresos y gastos existentes cambiando la descripción o el valor del ingreso o gasto.
-                   También puedes eliminar los ingresos y gastos que ya no necesitas.La aplicación muestra un resumen de tus ingresos y gastos en el encabezado de la aplicación. 
-                   El resumen muestra el presupuesto total, el total de ingresos y el total de gastos. La aplicación web cuenta con conexion con una base de datos que permite almacenar todos los ingresos e egresos que el usuario desee agregar.</p>
-            </div>
+  <div class="portafolio" id="Portafolio">
+    <div class="portfolio-heading">
+      <h1>Mi Portafolio</h1>
+    </div>
+    <div class="container">
+      <div class="servicio" onmouseover="rotateImage(this)" onmouseout="resetImage(this)">
+        <img src="CSS/IMG/img3.png" alt="Diseño Personalizado">
+        <div class="overlay">
+          <h1>Proyecto Presupuestos</h1>
+          <p>Este proyecto es una aplicación web que te permite realizar un seguimiento de tus ingresos y gastos. 
+            Para así llevar una adecuada organización de tu economía y saber el presupuesto disponible que posees.</p>
             <div class="card__proyect-links">
-              <a href="https://github.com/SergioDimas17/PRESUPUESTOS"   target="_blank" >
+              <a href="https://github.com/SergioDimas17/PRESUPUESTOS" target="_blank">
                 <i class="fab fa-github"></i></a>
             </div>
             <div class="button-content">
@@ -139,82 +241,108 @@
               </button>
             </div>
           </div>
-         
-          <div class="card">
-            <h2>Pagina La Cava</h2>
-            <div class="card__img">
-              <img src="CSS/IMG/img4.png" alt="ser">
-            </div>
-            <div class="card__title">
-              <p>El proyecto es una página web estática  para un restaurante llamado "La Cava". La página web está diseñada para informar a los visitantes sobre el restaurante, sus platos y bebidas, y sus horarios de atención.
-                 La página web comienza con un encabezado que incluye el logotipo del restaurante y un menú de navegación. El menú de navegación permite a los visitantes navegar por las diferentes secciones de la página web.
-                  La descripción del restaurante explica que el restaurante ofrece una experiencia culinaria única, con platos elaborados con ingredientes frescos y de temporada. 
-                  La sección "Formulario de reservación" incluye un formulario para que los visitantes puedan reservar una mesa en el restaurante. La sección "Información de contacto y enlaces" incluye información de contacto del restaurante, 
-                  enlaces a redes sociales y enlaces a información útil.</p>
 
-            </div>
-           <div class="card__proyect-links">
-              <a href="https://github.com/SergioDimas17/La-Cava" target="_blank">
-                <i class="fab fa-github"></i></a>
-            </div>
-            <div class="button-content">
-              <button class="project-details-button download-cv">
-                <a href="pagina comidas/pcomi.html" target="_blank">Detalles</a>
-              </button>
-            </div>
-          </div>
-           
-          <div class="card">
-            <h2>Buscador del Clima</h2>
-            <div class="card__img">
-              <img src="CSS/IMG/img5.png" alt="ser">
-            </div>
-            <div class="card__title">
-            <p>Este proyecto web permite a los usuarios obtener información meteorológica de una ciudad y país específicos. El propósito general del proyecto es ofrecer una interfaz sencilla para que cualquier persona, independientemente de sus conocimientos en programación, pueda conocer el clima actual de una ubicación de su elección.
-              En términos prácticos, el proyecto se presenta como una página web con un formulario en el que los usuarios pueden ingresar el nombre de la ciudad y el país para el cual desean obtener información meteorológica. El formulario es intuitivo, con campos de entrada para ciudad y país, y un botón para enviar la solicitud.
-              Cuando el usuario envía el formulario, el código JavaScript entra en acción y utiliza una API de OpenWeatherMap para recuperar datos meteorológicos en tiempo real de la ubicación proporcionada. Esta API actúa como un servicio externo que provee información </p>
-            </div>
+        </div>
+      
+      <div class="servicio" onmouseover="rotateImage(this)" onmouseout="resetImage(this)">
+        <img src="CSS/IMG/img4.png" alt="Construcción de Piscinas">
+        <div class="overlay">
+          <h1>PiscinasDream</h1>
+          <p>
+            Este proyecto es una pagina web estática de una empresa llamada PiscinasDream especializada en el diseño, construcción, reformas y mantenimiento de piscinas. Su objetivo es hacer realidad los sueños de sus clientes, proporcionando piscinas de calidad, seguras y eficientes.</p>
             <div class="card__proyect-links">
-              <a href="https://github.com/SergioDimas17/Buscador-del-Clima"  target="_blank">
+              <a href="https://github.com/SergioDimas17/PiscinasDream" target="_blank">
                 <i class="fab fa-github"></i></a>
             </div>
             <div class="button-content">
               <button class="project-details-button download-cv">
-                <a href="app clima/clima.html" target="_blank">Detalles</a>
+                <a href="prueba tecnica/index.html" target="_blank">Detalles</a>
               </button>
             </div>
           </div>
+
+        </div>
+    
+      <div class="servicio" onmouseover="rotateImage(this)" onmouseout="resetImage(this)">
+        <img src="CSS/IMG/img5.png" alt="Remodelación">
+        <div class="overlay">
+          <h1>Galeria de Imagenes</h1>
+          <p>Este proyecto consiste en una galería de imágenes interactiva que te permite ver imágenes en detalle y navegar entre ellas. La galería se crea dinámicamente a partir de imágenes predefinidas.</p>
+            <div class="card__proyect-links">
+              <a href="https://github.com/SergioDimas17/Galeria-Responsiva" target="_blank">
+                <i class="fab fa-github"></i></a>
+            </div>
+            <div class="button-content">
+              <button class="project-details-button download-cv">
+                <a href="galeria responsiva/index.html" target="_blank">Detalles</a>
+              </button>
+            </div>
+          </div>
+
         </div>
       </div>
-   
-      
-   <div class="contact-section" id="Contacto">
-        <div class="contact-heading">
-         <h2>Seguir en contacto</h2>
-         <h4>Enviar un mensaje...</h4></div>
-         <div class="container-contact">
-            <div class="contact form">
-              <form action="datos.php" method="post" class="form-group">
-                <input type="text" name="nombre" placeholder="Nombre" class="input" autocomplete="given-name">
-                <input type="email" name="correo" placeholder="Correo" class="input">
-                <textarea name="mensaje" placeholder="Deja tu mensaje aqui..."></textarea>
-                <button type="submit"  name="form"  value="Enviar mensaje" 
-                    class="btn-submit">Enviar mensaje</button>
-              </form>
-            </div>
-         </div>
     </div>
+  
 
-    <footer>
-        <div class="footer-content">
-            <h2>Sergio Dimas</h2>
-            <h5>Developer Web</h5>
-            <div class="red-social">
-              <a  href="https://www.linkedin.com/in/sergio-dimas/" target="_blank"><i class="fab fa-linkedin" ></i></a>
-              <a href="https://github.com/SergioDimas17/PORTAFOLIO" target="_blank"> <i class="fab fa-github" ></i></a> 
-            </div>
-        </div>
-    </footer>
+        
 
+        
+   <section class="def" id="Contacto">
+  <div class="encabezado"><h1>Dejame un Mensaje</h1></div> 
+ <!-- Sección de contacto -->
+ <div class="contact-section"  >
+  <!-- Formulario de contacto -->
+  <form id="formulario" class="form">
+    <h1>Formulario de Contacto</h1>
+      <input class="input" type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+      <input class="input" type="email" id="correo" name="correo" placeholder="Correo" required>
+      <textarea class="textarea" id="mensaje" name="mensaje" placeholder="Envía un mensaje..." required></textarea>
+      <button class="button" type="submit">Enviar</button>
+    </form>
+    <div class="alert success hidden"></div>
+    <div class="alert error hidden"></div>
+
+
+    <div class="e-card playing">
+      <div class="image"></div>
+      
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      
+    
+          <div class="infotop">
+    
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">
+      <path fill="currentColor" d="M19.4133 4.89862L14.5863 2.17544C12.9911 1.27485 11.0089 1.27485 9.41368 2.17544L4.58674
+      4.89862C2.99153 5.7992 2 7.47596 2 9.2763V14.7235C2 16.5238 2.99153 18.2014 4.58674 19.1012L9.41368
+      21.8252C10.2079 22.2734 11.105 22.5 12.0046 22.5C12.6952 22.5 13.3874 22.3657 14.0349 22.0954C14.2204
+      22.018 14.4059 21.9273 14.5872 21.8252L19.4141 19.1012C19.9765 18.7831 20.4655 18.3728 20.8651
+      17.8825C21.597 16.9894 22 15.8671 22 14.7243V9.27713C22 7.47678 21.0085 5.7992 19.4133 4.89862ZM4.10784
+      14.7235V9.2763C4.10784 8.20928 4.6955 7.21559 5.64066 6.68166L10.4676 3.95848C10.9398 3.69152 11.4701
+      3.55804 11.9996 3.55804C12.5291 3.55804 13.0594 3.69152 13.5324 3.95848L18.3593 6.68166C19.3045 7.21476
+      19.8922 8.20928 19.8922 9.2763V9.75997C19.1426 9.60836 18.377 9.53091 17.6022 9.53091C14.7929 9.53091
+      12.1041 10.5501 10.0309 12.3999C8.36735 13.8847 7.21142 15.8012 6.68783 17.9081L5.63981 17.3165C4.69466
+      16.7834 4.10699 15.7897 4.10699 14.7235H4.10784ZM10.4676 20.0413L8.60933 18.9924C8.94996 17.0479 9.94402
+      15.2665 11.4515 13.921C13.1353 12.4181 15.3198 11.5908 17.6022 11.5908C18.3804 11.5908 19.1477 11.6864
+      19.8922 11.8742V14.7235C19.8922 15.2278 19.7589 15.7254 19.5119 16.1662C18.7615 15.3596 17.6806 14.8528
+       16.4783 14.8528C14.2136 14.8528 12.3781 16.6466 12.3781 18.8598C12.3781 19.3937 12.4861 19.9021 12.68
+       20.3676C11.9347 20.5316 11.1396 20.4203 10.4684 20.0413H10.4676Z"></path></svg><br>      
+       Sergio Dimas
+    <br>
+    <div class="name"> Developer Web</div>
+      </div>
+    </div>
+ </div>
+</section>
+
+
+<footer class="footer-content" id="footer-content">
+  <div class="share">
+    <a href="https://www.linkedin.com/in/sergio-dimas/" target="_blank" id="linkedin-icon"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/SergioDimas17/Portfolio.github.io" target="_blank" id="github-icon"><i class="fab fa-github"></i></a> 
+  </div>
+</footer>
+<script src="animaciones.js"></script>
 </body>
 </html>

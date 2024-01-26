@@ -5,7 +5,7 @@ $datos = array();
 
 // Obtener los datos del formulario
 $nombre = $_POST["nombre"];
-$correo = $_POST["correo"];
+$correo = $_POST["correo"]; 
 $mensaje = $_POST["mensaje"];
 
 // Agregar los datos a la matriz
